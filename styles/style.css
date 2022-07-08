@@ -82,12 +82,18 @@
 .header-subtitle_text {
   font-size: 18px;
   font-weight: normal;  
-  list-style-type: none;
-}  
+}   
+
+.header-subtitle_link {
+  font-size: 18px;
+  font-weight: normal;  
+  color: #2f80ed;
+}
 /*
 div { 
   border: 1px solid red;
 } */
+
 
 .two-columns {  
   display: flex;   
@@ -178,12 +184,12 @@ justify-content: space-between;
 flex-wrap: wrap;
 } 
 
-.tabel-cell { 
+.table-cell { 
   width: 250px; 
   margin-bottom: 60px;
 } 
 
-.tabel-heading { 
+.table-heading { 
   display: flex; 
   max-width: 250px;
   line-height: 1.15; 
@@ -193,7 +199,7 @@ flex-wrap: wrap;
   margin: 0;
 } 
 
-.tabel-text {
+.table-text {
   line-height: 1.2; 
   font-size: 18px; 
   font-style: normal; 
@@ -202,6 +208,123 @@ flex-wrap: wrap;
   margin: 0;
 }
 
-.tabel-cell_bottom {
+.table-cell_bottom {
   width: 250px; 
+} 
+
+.feynman {
+  display: flex; 
+  flex-direction: column;  
+  height: 890px; 
+  position: relative; 
+  background-color: #f2f2f2;
+
+}
+
+.faynman-title {  
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 0 auto; 
+  width: 648px;  
+  text-align: center;
+} 
+
+.feynman-title__text { 
+  line-height: 1.15; 
+  font-size: 120px; 
+  font-style: 600; 
+  margin: 0; 
+  z-index: 2;
+} 
+
+.feynman-subtitle {
+  margin-top: 70px; 
+  display: flex; 
+  justify-content: center; 
+  margin: 70px auto 0 auto; 
+  z-index: 3;
+}  
+
+.feynman-subtitle__text {
+  line-height: 51px; 
+  font-size: 36px; 
+  font-style: normal; 
+  margin: 0; 
+} 
+
+.feynman-link {
+  position: absolute;
+    margin: auto;
+    display: flex;
+    right: 48px;
+    top: 50%;
+    justify-content: center;
+} 
+
+.feynman-link__link {
+  line-height: 51px; 
+  font-size: 36px; 
+  font-style: normal; 
+  margin: 0;  
+  color: #2f80ed;
+} 
+
+.feynman-image{ 
+  bottom: 0; 
+  left: 0; 
+  width: 867px; 
+  height: 637px; 
+  position: absolute; 
+  z-index: 1;
+}  
+
+.kaufman {
+  background-color: #1f1f1f; 
+  padding-top: 90px;
+  padding-bottom: 90px; 
+  overflow: hidden; 
+  position: relative;
+} 
+
+.table_theme_dark {
+  margin: 0 auto;
+}
+
+.section-title_theme_dark {
+  color: white; 
+  font-size: 60px; 
+  margin: 0 auto 0 auto;
+} 
+
+.section-subtitle_theme_dark {
+ color: white; 
+ font-size: 24px;
+}
+
+.table-cell_theme_dark {
+  width: 200px; 
+  z-index: 2;
+} 
+
+.table-heading_theme_dark {
+  color: white; 
+  font-size: 24px; 
+  z-index: 3;
+} 
+
+.table-text_theme_dark { 
+  color: white;
+  font-size: 18px; 
+  font-weight: normal; 
+  line-height: 1.2; 
+  z-index: 4;
+} 
+
+.tringle {
+  position: absolute; 
+  width: 877px; 
+  height: 877px; 
+  right: -210px; 
+  top: 0; 
+  z-index: 1;
 }
