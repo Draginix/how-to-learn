@@ -9,16 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif; 
 }
 
-.header { 
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;  
-  display: flex; 
-  align-items: center; 
-  position: relative; 
-  background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
-}
 
 /* и элемента с модификатором вида ключ-значение 
 .table__cell_theme_dark {
@@ -32,6 +22,15 @@
   border: 1px solid red;
 } */ 
 
+.header { 
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;  
+  display: flex; 
+  align-items: center; 
+  position: relative; 
+  background-color: #f2f2f2;
+}
 
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg); 
