@@ -3,12 +3,12 @@
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;
-    color: white; 
+    color: white;
     cursor: pointer;
     transition: 3s linear;
 }  
 
 .footer__column-link:hover {
-    opacity: 0 
+    opacity: 0;
 }
   
